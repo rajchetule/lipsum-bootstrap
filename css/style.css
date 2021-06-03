@@ -1,0 +1,84 @@
+/*generic css*/
+.container{max-width: 1024px; margin: auto;}
+.bord-top{border-top: 8px solid #f2ac04;}
+/*font css*/
+@font-face{src:url(../font/HelveticaNarrowRegular.ttf);font-family:Helvetica-Narrow;}
+@font-face{src:url(../font/MyriadProRegular.ttf);font-family:Myriad Pro;}
+@font-face{src:url(../font/swiss721thinbt.ttf);font-family:Swis721 Th BT;}
+@font-face{src:url(../font/TahomaRegularfont.ttf);font-family:Tahoma;}
+@font-face{src:url(../font/NovecentoWideLight.otf);font-family:Novecentowide Light;}
+@font-face{src:url(../font/HelveticaNeueLT65Medium.ttf);font-family:HelveticaNeueLT MediumCond;}
+@font-face{src:url(../font/InterstateCondMonoRegular.ttf);font-family:Interstate Cond mono;}
+@font-face{src:url(../font/swiss721blackcondensedbt.ttf);font-family:Swis721 BlkCn BT;}
+@font-face{src:url(../font/NewHelvetica-Regular.otf);font-family:HelveticaCE;}
+/*basic css*/
+header{padding: 40px 0 0;}
+header .bor-r{border-right: 1px solid #cac8c5;}
+header .text{padding-left: 25px;}
+header h2{font-family:Novecentowide Light;font-size:20px;color:#f2ac04;}
+header p{font-family:Myriad Pro;font-size:14px;color:#929292;margin-top:14px;}
+.navbar{margin: 14px 0;}
+.nav1{border-top:1px solid #ababab;border-bottom:1px solid #ababab;}
+.nav1 .mar-78{text-decoration:none;font-family:Swis721 Th BT;font-size:18px;color:#6b6b6b;margin-right:77px;}
+/*feature section*/
+.feature{border-bottom: 1px  solid #cccccc;padding:38px 0 20px;}
+.feature h5{font-family:Tahoma;font-size:12px;text-transform: uppercase; margin-bottom: 10px;}
+.jumbotron{padding: 21px;margin: 5px; background-image: url(../img/godimg.png);background-repeat: no-repeat;background-size: cover;}
+.card-body{padding: 0;}
+.card-body button{padding:0 1px;}
+.card-body .card-text{margin: 0;}
+.feature  h3{font-family:Novecentowide Light;font-size:26px;color:#fff;margin-bottom:20px; }
+.feature  h1{font-family:Novecentowide Light;color:#fff; font-size:40px;}
+.feature .godtext p{font-size:14px;line-height:24px;font-family:Helvetica-Narrow;  border-top:1px solid black;}
+/*info section*/
+.info{padding:30px 0 60px; }
+.info .news{border-right: 1px solid #e5e5e5;padding-right: 9px;}
+.info .news .newspkt {border-bottom:1px dashed #7e7e7e;padding-top: 18px;}
+.info h3{font-family:HelveticaNeueLT MediumCond;font-size:18px;color:#565656;margin-bottom:38px;}
+.info .news h1{margin: 0; color:#f2ac04;font-size:18px;font-family:HelveticaNeueLT MediumCond;}
+.info .news p{margin: 0; font-family:Interstate Cond mono;font-size:10px;color:#777777;margin-top:6px;}
+.info .news h5{margin: 0; font-family:Myriad Pro;font-size:16px;color:#565656;}
+.info button{padding:0 1px;}
+.info .who{padding:0 25px 40px 25px;border-right: 1px solid #e5e5e5;}
+.info .who h3{text-transform: uppercase; font-size:18px;font-family:HelveticaNeueLT MediumCond;color:#565656;margin-bottom:38px; }
+.info .who p{padding: 0; font-family:HelveticaCE;font-size:16px;line-height:24px;margin-bottom:27px;}
+.contact{padding-left: 35px;}
+.contact p{margin: 0;}
+.contact h3{font-size:22px;font-family:HelveticaNeueLT MediumCond;color:#565656;}
+.contact .contact_pkt{font-size:16px;font-family:Swis721 BlkCn BT;color:#757575;padding:16px 0 8px;border-bottom: 1px dotted #999999;}
+.contact .address p{line-height: 24px;font-family: Myriad Pro; font-size: 16px;color: #757575;margin: 16px 0 8px;}
+/*client section*/
+.client{border-top:1px solid #cccccc;border-bottom:1px solid #cccccc;padding:20px 0 35px 64px;}
+.client .magic {margin-left: -22px;  color:#343434;margin-top:-28px;background-color: white; font-size: 14px;}
+/*footer section*/
+footer{color:#535353;font-size:16px;}
+footer .logo2{padding:24px 0 21px;}
+footer .nav2{padding: 0; margin: 0;}
+footer .nav2 .nav-item .nav-link{border-right: 1px solid #535353; font-size:10px;color:#535353;font-family:Swis721 Th BT;padding:0 10px;}
+footer p {color:#535353;font-size:16px;font-family:Swis721 Th BT;margin: 0;}
+
+/*media query*/
+@media (max-width: 767.98px) {
+	.card{width: 90%;}
+	.card img{width: 100%;}
+	.jumbotron{width: 90%;}
+	header h2{font-size:16px;}
+	header p{font-size:12px;}
+	header .logoh{width: 80%;}
+	header .logoh img{width: 100%;}
+	.news, .who, .contact{margin-bottom: 15px;}
+	.info h3{font-size:12px;margin-bottom:10px;}
+	.info .news h1{font-size:14px;}
+	.info .news p{font-size:8px;margin-top:2px;}
+	.info .news h5{font-size:12px;}
+	.info .who h3{text-transform: uppercase; font-size:18px;font-family:HelveticaNeueLT MediumCond;color:#565656;margin-bottom:38px; }
+	.info .who p{font-size:12px;line-height:12px;}
+	.contact h3{font-size:18px;}
+	footer{font-size:14px;}
+	footer p {font-size:12px;}
+	footer .nav2 .nav-item .nav-link{border:none;}
+
+
+
+
+}
